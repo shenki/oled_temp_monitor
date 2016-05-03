@@ -1,6 +1,7 @@
 #include <Wire.h>
-#include <DHT.h>
-#include <SSD1306.h>
+
+#include "DHT.h"
+#include "SSD1306.h"
 
 #define DHTPIN D8
 
