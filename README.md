@@ -1,7 +1,7 @@
 # Temperature monitor
 
 This sketch reads the temperature from a DHT22 temperature/humidity module and
-displays the current temperature on a D1306 compatible 128x64 OLED LCD display.
+displays the current temperature on a D1306 compatible 128x64 OLED display.
 
 It has been tested on a NodeMCU 1.0 with Arduino 1.6.9.
 
@@ -14,7 +14,7 @@ programming to succeed.
 | ----- | --- |
 | SDA   | D2  |
 | SCL   | D4  |
-| DHT22 | D8  |
+| DHT22 | D7  |
 
 ![Wiring diagram][diagram]
 

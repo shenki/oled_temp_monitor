@@ -3,7 +3,7 @@
 #include "DHT.h"
 #include "SSD1306.h"
 
-#define DHTPIN D8
+#define DHTPIN D7
 
 #define OLED_SDA    D2  // pin 14
 #define OLED_SDC    D4  // pin 12
@@ -37,12 +37,13 @@ void setup() {
 void loop() {
 
   t = dht.readTemperature();
-  display.drawString(0, 12*i, String(t, 1) + "°C");
+  display.drawString(0, 12 * i, String(t, 1) + "°C");
   display.display();
   i++;
-  if (i > 5) {
+
+  if (i == 5) {
     i = 0;
-   display.clear();
+    display.clear();
   }
   delay(4000);
 }
