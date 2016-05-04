@@ -21,6 +21,9 @@ It has been tested on a NodeMCU 1.0 with Arduino 1.6.9.
 
 The files I created are Apache 2.0.
 
-The SSD1306 library is MIT.
+The [SSD1306][1] library is MIT.
 
-The DHT library is MIT.
+The [DHT][2] library is MIT.
+
+[1]: https://github.com/squix78/esp8266-oled-ssd1306
+[2]: https://github.com/adafruit/DHT-sensor-library
